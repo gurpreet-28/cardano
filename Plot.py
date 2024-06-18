@@ -18,7 +18,7 @@ st.set_page_config(
 st.title("Cardano Predicted Price")
 st.write("Welcome to our Cardano Price Prediction page, where we leverage advanced machine learning models to forecast future prices of Cardano. Utilizing historical data and sophisticated algorithms, we provide an interactive and visually engaging representation of predicted Cardano prices.")
 
-maindf = pd.read_csv('BTC-USD.csv')
+maindf = pd.read_csv('ADA-USD.csv')
 
 closedf = maindf[['Date', 'Close']]
 
